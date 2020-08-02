@@ -1,10 +1,2 @@
-/node_modules/
-/dist/
-/.git/
-/**/_backstage
-/**/package-lock.json
-/**/Thumbs.db
-/**/*.DS_Store
-/covertage/
-gulp.json
-.bower.rc
+*
+!app/*
