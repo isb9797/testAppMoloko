@@ -1,0 +1,219 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+  body
+    background-color: $bodyColor
+
+  .header
+    position: fixed
+    background-color: $bodyColor
+    padding-top: 10px
+    padding-bottom: 10px
+    .logo
+      display: none
+    .input-group
+      border-radius: 10px
+    .row
+      height: 90px
+    input[type="text"]
+      border-radius: 10px
+      border: none
+      background: $bgSearch
+      color: $grayText
+      font-size: 16px
+      font-weight: bold
+      &::placeholder
+        color: $grayText
+        text-indent: 0px
+      &::focus
+        outline: none
+    &-nav
+      margin-left: 0.5rem
+      .link_btn
+        display: block
+        text-decoration: none
+        min-width: 23% !important
+        height: 30px
+        color: $text
+        text-align: center
+        background-color: $linkColor
+        border: solid 1px $linkBorder
+        border-radius: 6px
+        line-height: 30px
+        &:hover
+          text-decoration: none
+          color: grey
+    &-filter_btn
+      cursor: pointer
+
+      img
+        height: 25px
+
+    .search-bg
+      background: $bgSearch
+      border: none
+      border-radius: 10px
+
+  .galary
+    padding-top: 115px
+    &-image
+      margin-bottom: 0.5rem !important
+      width: 96px !important
+      height: 96px !important
+      border-radius: 4px
+      display: block
+
+  .profile_nav
+    height: 60px !important
+    margin-bottom: 0px !important
+    .row
+      height: 60px !important
+    &-item
+      cursor: pointer
+    &-bar
+      border-radius: 0px !important
+      text-align: center
+      height: 60px !important
+      background: $barColor
+      color: #fff
+    p
+      margin: 0
+      margin-top: 13px
+      padding: 0
+      display: none
+
+  .filter
+    display: none
+    width: 100% !important
+    height: 100vh
+    margin-left: 0 !important
+    background-color: $filterBg
+    position: fixed !important
+    color: $grayText
+    padding: 20px
+    padding-top: 32px
+
+    &-close_btn
+      img
+        height: 20px !important
+        width: 20px !important
+// ≥768px
++media-breakpoint-down(sm)
+  body
+    background-color: $bodyColor
+
+  .header
+    position: fixed
+    background-color: $bodyColor
+    padding-top: 10px
+    padding-bottom: 10px
+    .logo
+      display: none
+    .input-group
+      border-radius: 10px
+    .row
+      height: 90px
+    input[type="text"]
+      border-radius: 10px
+      border: none
+      background: $bgSearch
+      color: $grayText
+      font-size: 16px
+      font-weight: bold
+      &::placeholder
+        color: $grayText
+        text-indent: 0px
+      &::focus
+        outline: none
+    &-nav
+      margin-left: 0.5rem
+      .link_btn
+        display: block
+        text-decoration: none
+        min-width: 23% !important
+        height: 30px
+        color: $text
+        text-align: center
+        background-color: $linkColor
+        border: solid 1px $linkBorder
+        border-radius: 6px
+        line-height: 30px
+        &:hover
+          text-decoration: none
+          color: grey
+    &-filter_btn
+      cursor: pointer
+
+      img
+        height: 25px
+
+    .search-bg
+      background: $bgSearch
+      border: none
+      border-radius: 10px
+
+  .galary
+    padding-top: 115px
+    &-image
+      margin-bottom: 0.5rem !important
+      width: 96px !important
+      height: 96px !important
+      border-radius: 4px
+      display: block
+
+  .profile_nav
+    height: 60px !important
+    margin-bottom: 0px !important
+    .row
+      height: 60px !important
+    &-item
+      cursor: pointer
+    &-bar
+      border-radius: 0px !important
+      text-align: center
+      height: 60px !important
+      background: $barColor
+      color: #fff
+    p
+      margin: 0
+      margin-top: 13px
+      padding: 0
+      display: none
+
+  .filter
+    display: none
+    width: 100% !important
+    height: 100vh
+    margin-left: 0 !important
+    background-color: $filterBg
+    position: fixed !important
+
+    color: $grayText
+    padding: 20px
+    padding-top: 32px
+    &-close_btn
+      img
+        height: 30px
+        width: 30px
+// ≥576px
++media-breakpoint-down(xs)
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
