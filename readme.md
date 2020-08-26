@@ -25,4 +25,4 @@
 
 ---
 
-Посмотреть на проект в действии можно по ссылке: http://test.ilin-sergey.ru/
+Посмотреть на проект в действии можно по ссылке: http://portfolio.ilin-sergey.ru/sites/ibuy_art
